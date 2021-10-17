@@ -25,5 +25,6 @@
 </style>
 
 <div class="container">
-  <textarea class="editor" bind:value={$content}></textarea>
+  <!-- svelte-ignore a11y-autofocus -->
+  <textarea autofocus class="editor" bind:value={$content}></textarea>
 </div>
